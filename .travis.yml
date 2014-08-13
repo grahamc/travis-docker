@@ -1,0 +1,4 @@
+install:
+  - curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+script: docker run ubuntu /bin/echo "foobar"
+
